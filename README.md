@@ -28,8 +28,8 @@ cd /etc/raddb/mods-enabled
 ln -s ../mods-available/perl /etc/raddb/mods-enabled
 
 
-I am not using ini file for configuring LinOTP server instead config parameters are defined directly in .pm file  
+I am not using ini file for configuring LinOTP server, instead config parameters are defined directly in .pm file  
 Edit this part of radius_linotp.pm to your environment specifications:
 
-    $Config->{URL}       = 'https://cpisap11.mbu.local/validate/simplecheck';
-    $Config->{REALM}     = 'egcp.com';
+    $Config->{URL}       = 'https://_linotpserver.example.com_/validate/simplecheck';
+    $Config->{REALM}     = 'example.com';
