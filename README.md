@@ -1,7 +1,7 @@
 # LinOTP-and-FreeRadius
 LinOtp and FreeRadius on Centos 7
 
-Install LinOPT:
+Install LinOTP:
 
 https://www.linotp.org/doc/latest/part-installation/server-installation/rpm_install.html
 
