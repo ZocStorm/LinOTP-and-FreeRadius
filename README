@@ -27,7 +27,7 @@ cp radius_linotp.pm /usr/lib/linotp/radius_linotp.pm
 
 Link:
 
-rm /etc/raddb/sites-enabled/{default,inner-tunnel,}
+rm /etc/raddb/sites-enabled/{default,inner-tunnel}
 rm /etc/raddb/mods-enabled/eap
 cd /etc/raddb/sites-enabled/
 ln -s ../sites-available/linotp /etc/raddb/sites-enabled
