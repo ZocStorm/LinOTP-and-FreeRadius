@@ -1,0 +1,27 @@
+server linotp {
+        listen {
+                ipaddr = *
+                port = 0
+                type = auth
+        }
+
+        authorize {
+                preprocess
+                IPASS
+                suffix
+                ntdomain
+                files
+                expiration
+                logintime
+                pap
+                update control {
+                      Auth-Type := Perl
+                }
+        }
+
+        authenticate {
+        Auth-Type Perl {
+                perl
+          }
+        }
+}
