@@ -15,6 +15,7 @@ Install Perl modules:
 
 yum install perl-Try-Tiny
 yum install perl-LWP-Protocol-https
+yum install perl-Config-IniFiles
 
 Copy:
 
